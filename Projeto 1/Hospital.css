@@ -1,0 +1,210 @@
+
+nav {
+    position: absolute top;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: #272e6d; 
+    display: flex; 
+    justify-content:space-between; 
+    align-items: center; 
+    padding: 10px 20px; 
+    border-radius: 10px;
+}
+
+nav div img{
+    width: 60px;
+    height: auto;
+    border-radius: 10px;
+
+}
+
+#verm {
+    background-color: #ff0000;
+    padding: 2.5px;
+    border-radius: 3px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+
+ul {
+    list-style-type: none; 
+    padding: 0; 
+    margin-left: 10px; 
+    display: flex; 
+}
+
+li {
+    margin-right: 20px;
+    position: relative;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+#marca{
+    border-radius: 30000000px;
+    width: 300px;
+    height: auto;
+    display:inline-block;
+    text-align: center;
+    align-items: center;
+    border:3px solid #201212;
+    border-radius: 20px;
+    margin-left: 605px;
+
+}
+
+a {
+    text-decoration: none; 
+    color: #fff; 
+    font-weight: bold;
+
+}
+
+a:hover {
+    color:#ffd000;
+
+}
+
+.submenu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #313984;
+    padding: 10px;
+    border-radius: 0 0 5px 5px;
+    box-shadow: 0 4px 6px black;
+
+}
+
+li:hover .submenu {
+    display: block;
+
+}
+
+.submenu li {
+    margin-right: 0;
+
+}
+
+.submenu a {
+    font-weight: normal;
+    color: #fff;
+
+}
+
+.submenu a:hover {
+    color: #ffd000;
+
+}
+
+h2{
+    font-family: sans-serif;
+    color: rgb(54, 223, 16);
+    text-align: center;
+    text-shadow: 2px 0 #8b417c, -2px 0 #8b417c, 0 2px #8b417c, 0 -2px #8b417c, 1px 1px #8b417c, -1px -1px #8b417c, 1px -1px #8b417c, -1px 1px #8b417c;
+
+}
+
+h3 {
+
+    color: rgb(77, 169, 91);
+    text-align: center;
+    text-shadow: 2px 0 #000000, -2px 0 #000000, 0 2px #000000, 0 -2px #000000, 1px 1px #000000, -1px -1px #000000, 1px -1px #000000;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+p {
+
+    color: rgb(228, 228, 65);
+    font-size: medium;
+    text-align: center;
+
+}
+
+body img{
+    width: 755px;
+    height: auto;
+    border-radius: 10px;
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+
+}
+
+table{
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+
+}
+
+table th, table td{
+    border: 1px solid #000000;
+    padding: 8px;
+    text-align: left;
+
+}
+
+
+#emerg{
+    display:inline-block;
+    text-align: center;
+    align-items: center;
+    width:360px;
+    height:80px;
+    background-color:#ff0000;
+    border:3px solid #000000;
+    border-collapse: collapse;
+    margin-right: 50px;
+    margin-left: 50px;
+    border-radius: 20px;
+    padding-top: 60px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: 1px;
+
+}
+
+#botoesdir{
+    display:inline-block;
+    text-align: center;
+    align-items: center;
+    width:360px;
+    height:80px;
+    background-color:#313984;
+    border:3px solid #201212;
+    border-collapse: collapse;
+    margin-right: 50px;
+    border-radius: 20px;
+    padding-top: 60px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#botoesesq{
+    display:inline-block;
+    text-align: center;
+    align-items: center;
+    width:360px;
+    height:80px;
+    background-color:#313984;
+    border:3px solid #201212;
+    border-collapse: collapse;
+    margin-left: 50px;
+    margin-right: 50px;
+    border-radius: 20px;
+    padding-top: 60px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+#footer {
+    position: absolute bottom;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(125, 112, 112);
+    color: rgb(199, 189, 189);
+    text-align: center;
+    padding-bottom: 20px;
+    padding-top: 20px;
+
+}

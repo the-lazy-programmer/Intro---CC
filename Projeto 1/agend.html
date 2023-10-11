@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="emerg.css">
+    <link rel="stylesheet" href="agend.css">
+</head>
+<body>
+<center>
+    <header>
+        <nav>
+
+            <div>
+
+                <a href="emerg.html"><img class="green_cross" src="green cross.jpg"></a>
+
+            </div>
+
+            <ul>
+
+                <li><a href="#menu">Menu</a>
+
+                    <ul class="submenu">
+
+                        <li><a id="verm" href="emerg.html">Emergência</a></li>
+                        <li><a href="Hospital.html">Home</a></li>
+                        <li><a href="Medicos.html">Médicos</a></li>
+                        <li><a href="agend.html">Agendamento</a></li>
+                        <li><a href="sobre.html">Sobre Nós</a></li>
+                    </ul>
+
+                </li>
+
+                <li><a href="agend.html">Formulário de sintomas</a></li>
+
+            </ul>
+
+        </nav>
+
+    </header>
+    <h3>Agendamento</h3>
+
+    <form>
+
+        <label for="questionario">Por favor escolha um profissional:</label>
+        <select id="questionario" name="profis">
+            <option value="cardi">Cardiologista</option>
+            <option value="clin">Clínica Geral</option>
+            <option value="derm">Dermatologista</option>
+            <option value="endo">Endocrinologista</option>
+            <option value="gas">Gastroenterologista</option>
+            <option value="gene">Médico geneticista</option>
+            <option value="geri">Geriatra</option>
+            <option value="oto">Otorrinolaringologista</option>
+            <option value="onco">Oncologista</option>
+        </select>
+
+    <br>
+    <br>
+    
+
+        <label for="questionario">Qual é o motivo da sua consulta?</label>
+        <input type="text" id="questionario" name="quest" placeholder="Digite aqui">
+
+    <br>
+    <br>
+
+        <label for="week">Quando seria a consulta?</label>
+        <input id="week" id ="questionario" type="week" name="week"/>
+
+    <br>
+    <br>
+
+        <p id = "hora">Escolha a hora para a sua consulta</p>
+        <label for="appt-time">Se não for compatível com o horário dos médicos, não será aceita!: </label>
+        <input id="appt-time" type="time" name="appt-time" value="12:00" />
+
+    <br>
+    <br>
+
+
+        <input id="questionario" type="submit" value="Enviar">
+
+    </form>
+
+    <br>
+    <br>
+    <br>
+
+    <h3>Horários</h3>
+    
+        <table>
+    
+            <tr>
+    
+                <th>Médico</th>
+                <th>Especialização</th>
+                <th>Sala</th>
+                <th>Horário</th>
+    
+            </tr>
+    
+            <tr>
+    
+                <td>Pablo Ricardo</td>
+                <td>Cardiologista</td>
+                <td>3º Andar - Sala 12</td>
+                <td>Quinta a segunda - 9:00 ás 17:00</td>
+    
+            </tr>
+    
+            <tr>
+    
+                <td>Fátima Melo</td>
+                <td>Clínica geral</td>
+                <td>1º Andar - Sala 21</td>
+                <td>Segunda a sexta - 7:00 ás 19:00</td>
+    
+            </tr>
+    
+            <tr>
+    
+                <td>João Gilberto</td>
+                <td>Dermatologista</td>
+                <td>5º Andar - Sala 17</td>
+                <td>Quarta a domingo - 10:00 ás 17:00</td>
+    
+            </tr>
+    
+            <tr>
+    
+                <td>Leonardo Moreira Filho</td>
+                <td>Endocrinologista</td>
+                <td>4º Andar - Sala 21</td>
+                <td>Terça a sábado - 7:00 ás 16:00</td>
+    
+            </tr>
+    
+            <tr>
+    
+                <td>Helena Camargo</td>
+                <td>Gastroenterologista</td>
+                <td>3º Andar - Sala 14</td>
+                <td>Segunda a sexta - 9:00 ás 17:00</td>
+    
+            </tr>
+    
+            <tr>
+    
+                <td>Milton Júnior da Silva Santos</td>
+                <td>Médico geneticista</td>
+                <td>5º Andar - Sala 11</td>
+                <td>Segunda a Quarta - 10:00 ás 18:00</td>
+    
+            </tr>
+    
+            <tr>
+    
+                <td>Armando Ferreira</td>
+                <td>Geriatra</td>
+                <td>1º Andar - Sala 3</td>
+                <td>Segunda a sexta - 9:00 ás 19:00</td>
+    
+            </tr>
+    
+            <tr>
+    
+                <td>Maria Gomes</td>
+                <td>Otorrinolaringologista</td>
+                <td>2º Andar - Sala 20</td>
+                <td>Segunda a sexta - 9:00 ás 19:00</td>
+    
+            </tr>
+    
+            <tr>
+    
+                <td>Roberto Augusto</td>
+                <td>Oncologista</td>
+                <td>1º Andar - Sala 15</td>
+                <td>Segunda a sexta - 10:00 ás 20:00</td>
+    
+            </tr>
+
+        </table>
+
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+
+    <img id = "marca" src="Picsart_23-10-10_17-03-11-464.jpg">
+    <h3>Cuidando de você desde 1850</h3>
+
+
+    <div id ="footer">
+
+    <h4>Endereço: Rua Amélia, 189, Recife, PE, Brasil</h4>
+    <h4>Telefone: 0800-09408</h4>
+    <h4>Para mais informações, por favor fale com a nossa secretaria pelo telefone</h4>
+
+    </div>
+
+</center>
+</body>
+</html>

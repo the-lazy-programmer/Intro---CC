@@ -1,0 +1,154 @@
+nav {
+    position: absolute top;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: #272e6d; 
+    display: flex; 
+    justify-content:space-between; 
+    align-items: center; 
+    padding: 10px 20px; 
+    border-radius: 10px;
+}
+
+nav div img{
+    width: 60px;
+    height: auto;
+    border-radius: 10px;
+
+}
+
+#verm {
+    background-color: #ff0000;
+    padding: 2.5px;
+    border-radius: 3px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+
+ul {
+    list-style-type: none; 
+    padding: 0; 
+    margin-left: 10px; 
+    display: flex; 
+}
+
+li {
+    margin-right: 20px;
+    position: relative;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+a {
+    text-decoration: none; 
+    color: #fff; 
+    font-weight: bold;
+
+}
+
+a:hover {
+    color:#ffd000;
+
+}
+
+.submenu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #313984;
+    padding: 10px;
+    border-radius: 0 0 5px 5px;
+    box-shadow: 0 4px 6px black;
+
+}
+
+li:hover .submenu {
+    display: block;
+
+}
+
+.submenu li {
+    margin-right: 0;
+
+}
+
+.submenu a {
+    font-weight: normal;
+    color: #fff;
+
+}
+
+.submenu a:hover {
+    color: #ffd000;
+
+}
+
+p{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+#aviso{
+    border-radius: 14px 14px 14px 14px; 
+    border: 4px solid #800000;
+    width: 500px;
+    height: auto;
+    background: #ff0000;
+    color: #fff;
+    padding: 10px;
+    padding-bottom: 15px;
+
+}
+
+#marca{
+    border-radius: 30000000px;
+    width: 200px;
+    height: auto;
+    display:inline-block;
+    text-align: center;
+    align-items: center;
+    border:3px solid #201212;
+    border-radius: 20px;
+
+}
+
+h1{
+    color: #ff0000;
+    text-shadow: 2px 0 #000000, -2px 0 #000000, 0 2px #000000, 0 -2px #000000, 1px 1px #000000, -1px -1px #000000, 1px -1px #000000;
+
+}
+
+h3 {
+
+    color: rgb(77, 169, 91);
+    text-align: center;
+    text-shadow: 2px 0 #000000, -2px 0 #000000, 0 2px #000000, 0 -2px #000000, 1px 1px #000000, -1px -1px #000000, 1px -1px #000000;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+
+img{
+    width: 500px;
+    height: auto;
+    border-radius: 30px;
+
+}
+
+#cirug{
+    border: 4.5px solid #000000;
+
+}
+
+#footer {
+    position: absolute bottom;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(125, 112, 112);
+    color: rgb(199, 189, 189);
+    text-align: center;
+    padding-bottom: 20px;
+    padding-top: 20px;
+
+}

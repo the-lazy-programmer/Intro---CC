@@ -1,0 +1,36 @@
+
+#background{
+    background-image: url(images.jpeg);
+
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.box {
+    width: 300px;
+    height: 450px;
+    border: 2px solid #202020;
+    border-radius: 10px;
+    text-align: center;
+    line-height: 15px;
+    padding: 0.1px;
+    margin: 1px;
+    font-size: medium;
+    background-color: blanchedalmond;
+    box-shadow: 2px 3px 5px 5px
+    
+}
+
+img{
+    width: 150px;
+    height: 200px;
+}
+
+#butao{
+    background-color: red;
+    color: rgb(255, 255, 255);
+
+}

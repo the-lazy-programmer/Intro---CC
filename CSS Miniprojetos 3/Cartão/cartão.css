@@ -1,0 +1,46 @@
+
+#background{
+    background-image: url(gun.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+
+}
+
+#box{
+    margin-top: 230px;
+    width: 300px;
+    height: 200px;
+    border: 2px;
+    border-radius: 10px;
+    padding: 5px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 2px 2px 5px 1px rgb(0, 0, 0);
+}
+
+#box div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: -20px;
+
+}
+
+h2{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+p{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: medium;
+}
+
+img{
+    width: 100px;
+    height: auto;
+    border-radius: 20px;
+
+}

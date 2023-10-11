@@ -1,0 +1,25 @@
+table{
+    border-collapse: collapse;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    margin-right: auto;
+    margin-left: auto;
+    height: auto;
+    width: 320px;
+
+}
+
+table th{
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgb(47, 164, 182);
+    color: rgb(255, 255, 255);
+}
+
+table td{
+    font-family: sans-serif;
+    background-color: rgb(138, 136, 15);
+    color: rgb(255, 255, 255);
+    text-align: center;
+
+}
+

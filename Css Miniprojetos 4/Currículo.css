@@ -1,0 +1,49 @@
+@font-face {
+
+    font-family: sans-serif;
+    src: url();
+}
+
+body {
+
+    background-image: url(stars.jpeg);
+    background-repeat: repeat;
+
+}
+
+h1{
+
+    color:rgb(176, 222, 237);
+    text-align: center;
+
+}
+
+h2 {
+
+    color: rgb(100, 221, 108);
+    text-align: center;
+
+}
+
+p {
+
+    color: rgb(228, 228, 65);
+    font-size: medium;
+    text-align: center;
+
+}
+
+#sus {
+
+    color: rgb(255, 181, 9);
+    text-align: center;
+
+}
+
+#botao {
+
+    color: rgb(238, 11, 11);
+    text-align: center;
+
+}
+
